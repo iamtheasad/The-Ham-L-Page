@@ -1,5 +1,5 @@
 /* google fonts link */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,700,800,900&display=swap');
 
 /**************************************
    Default css start 
@@ -11,9 +11,9 @@
 
 body {
    box-sizing: border-box;
-   color: #444444;
+   color: #777777;
    font-size: 14px;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Montserrat', sans-serif;
 }
 
 h1,
@@ -22,14 +22,15 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    margin: 0;
    padding: 0;
-   color: #222222;
+   color: #4e4e4e;
+   font-weight: 300;
 }
 
 p {
-   color: #444444;
+   color: #777777;
 }
 
 ul,
@@ -160,27 +161,15 @@ img {
 #big.owl-theme .owl-prev {
    background: #3c4140;
    width: 52px;
-   line-height: 40px;
-   margin-top: -20px;
+   line-height: 50px;
+   margin-top: -25px;
    position: absolute;
    text-align: center;
    top: 50%;
    color: #fff;
    outline: none;
    border: none;
-}
-
-#thumbs.owl-theme .owl-next:hover,
-#thumbs.owl-theme .owl-prev:hover {
-   color: #fff;
-   background: #18cfab;
-}
-
-#thumbs .owl-theme .owl-next:active,
-#thumbs .owl-theme .owl-prev:active {
-   outline: none;
-   color: #fff;
-   background: #18cfab;
+   border-radius: 0px;
 }
 
 #big.owl-theme .owl-prev {
@@ -191,15 +180,29 @@ img {
    right: 10px;
 }
 
+#thumbs.owl-theme .owl-next:hover,
+#thumbs.owl-theme .owl-prev:hover {
+   color: #fff;
+   background: #18cfab;
+}
+
+#thumbs.owl-theme .owl-next:focus, 
+#thumbs.owl-theme .owl-prev:focus {
+   color: white;
+   background: #18cfab;
+   outline: none;
+}
+
 #thumbs.owl-theme .owl-next,
 #thumbs.owl-theme .owl-prev {
    background: #3c4140;
-   width: 60px;
-   line-height: 60px;
+   width: 50px;
+   line-height: 50px;
    text-align: center;
    color: #fff;
    border-radius: 0%;
    margin: 0;
+   font-size: 20px;
 }
 
 #thumbs {
@@ -211,7 +214,7 @@ img {
 
 .outer_2 {
    position: relative;
-   max-width: 2000px;
+   max-width: 1920px;
    margin: 0 auto;
 }
 
@@ -238,7 +241,7 @@ img {
 
 .slider_text h1 {
    color: #fff;
-   font-size: 80px;
+   font-size: 73px;
    font-weight: 700;
    padding: 10px 0px;
 }
@@ -280,7 +283,69 @@ img {
    color: #fff;
    text-decoration: none;
 }
-
 /**************************************
    Header section end
+ **************************************/
+
+
+ /**************************************
+   Option section Start
+ **************************************/
+ section#theme_option {
+   margin-top: -10px;
+   padding: 0;
+}
+
+.custom_container {
+   max-width: 1920px;
+   margin: 0 auto;
+}
+
+.option_content {
+   justify-content: center;
+}
+
+ .option_content img {
+   width: 60px;
+   height: auto;
+}
+
+.option {
+   text-align: center;
+   line-height: 140px;
+   width: 480px;
+   height: 360px;
+   display: table-cell;
+}
+
+.option h3 {
+   font-size: 20px;
+   font-weight: 700;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.option_1, 
+.option_3 {
+   background: #1c2a33;
+   border-top: 7px solid #18cfab;
+}
+
+.option_1 h3, 
+.option_3 h3 {
+   color: #18cfab;
+}
+
+.option_2, 
+.option_4 {
+   background: #18cfab;
+   border-top: 7px solid #fff;
+}
+
+.option_2 img, 
+.option_4 img {
+   width: 100px;
+}
+ /**************************************
+   Option section End
  **************************************/
