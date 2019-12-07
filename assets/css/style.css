@@ -310,6 +310,10 @@ img {
    height: auto;
 }
 
+.verticle_align {
+   display: table;
+}
+
 .option {
    text-align: center;
    line-height: 140px;
