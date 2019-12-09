@@ -397,7 +397,7 @@ img {
 }
 
 .pricing_card_content:hover .price_card a.card_dollar_bg, 
-.pricing_card_content:hover .price_card a.boxed_btn {
+.pricing_card_content:hover .price_card a.boxed_btn{
    background-color: #18cfab;
 }
 
@@ -427,6 +427,29 @@ img {
    color: #717171;
    padding: 10px 0px;
    text-transform: uppercase;
+   overflow: hidden;
+   position: relative;
+}
+
+span.active_offer_card {
+   background-color: #18cfab;
+   width: 86px;
+   height: 25px;
+   position: absolute;
+   top: 18%;
+   right: -8%;
+   transform: rotate(58deg);
+   color: #fff;
+   font-size: 13px;
+   padding: 6px 0px;
+}
+
+a.active_offer_card {
+   background-color: #18cfab !important;
+}
+
+.active_offer_card h3 {
+   color: #18cfab;
 }
 
 .price_card a.card_dollar_bg {
@@ -469,75 +492,6 @@ a.card_dollar_bg span {
    background-color: #2e4a5b;
 }
 /* card pricing end */
-
-
-/* Card Pricing with Table Start */
-table.cards {
-   margin: 0 auto;
-}
-
-a.card_dollar_bg {
-   background-color: #2e4a5b;
-   color: #fff;
-   display: block;
-   text-decoration: none;
-}
-
-table td {
-   width: 280px;
-   height: auto;
-   border: 1px solid #777777;
-}
-
-.cards tbody {
-   text-align: center;
-}
-
-table tr:hover table td  {
-   box-shadow: 0px 3px 10px #777;
-}
-table td:hover table tr  {
-   box-shadow: 0px 3px 10px #777;
-}
-
-.cards th {
-   border: 1px solid #777777;
-   text-transform: uppercase;
-   font-size: 24px;
-   padding: 10px;
-   line-height: 35px;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 700;
-}
-
-.cards tr td li {
-   font-size: 14px;
-   border-top: 1px solid #777777;
-   list-style: none;
-}
-
-.cards tr td li:nth-child(8) {
-   border-bottom: 1px solid #777777;
-}
-
-.cards tr td li a {
-   text-decoration: none;
-   color: #777;
-   font-size: 14px;
-   font-weight: 400;
-   padding: 5px 0px;
-   display: block;
-}
-
-.cards tr td li a:hover {
-   color: #777;
-}
-
-.cards a.boxed_btn {
-   display: block;
-   background-color: #2e4a5b;
-}
-/* Card Pricing with Table End */
 
 /**************************************
       Our Pricing Table End
