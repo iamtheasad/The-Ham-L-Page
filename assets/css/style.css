@@ -504,6 +504,7 @@ a.card_dollar_bg span {
    font-size: 18px;
    color: #717171;
    font-weight: 700;
+   transition: .3s;
 }
 
 .single_service_item h5 span {
