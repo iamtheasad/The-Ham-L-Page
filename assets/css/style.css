@@ -26,7 +26,6 @@ h6 {
    margin: 0;
    padding: 0;
    color: #4e4e4e;
-   font-weight: 300;
 }
 
 p {
@@ -495,4 +494,32 @@ a.card_dollar_bg span {
 
 /**************************************
       Our Pricing Table End
+ **************************************/
+
+
+ /**************************************
+      Our Services Section Start
+ **************************************/
+ .single_service_item h5 {
+   font-size: 18px;
+   color: #717171;
+   font-weight: 700;
+}
+
+.single_service_item h5 span {
+   padding-right: 15px;
+   color: #18cfab;
+   font-size: 25px;
+}
+
+.single_service_item p {
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+.single_service_item:hover.single_service_item h5 {
+   color: #18cfab;
+}
+/**************************************
+      Our Services Section End
  **************************************/
