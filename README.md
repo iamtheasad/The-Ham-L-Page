@@ -1,1 +1,1 @@
-It's a landing page with fully responsive
+It's a landing page. I am working on it.
