@@ -369,13 +369,13 @@ img {
 
  .pricing_top h2 {
    font-size: 36px;
-   font-weight: 400;
+   font-weight: 700;
 }
 
 .pricing_top img:nth-child(2) {
    margin-top: 5px;
    position: absolute;
-   left: 50%;
+   left: 48%;
    top: 70%;
 }
 
@@ -522,4 +522,94 @@ a.card_dollar_bg span {
 }
 /**************************************
       Our Services Section End
+ **************************************/
+
+
+ /**************************************
+      About Section Start
+ **************************************/
+ #about_section {
+   background-image: url(../images/about_bg_2.jpg);
+   position: relative;
+ }
+
+ #about_section::after {
+   content: '';
+   background-image: url(../images/about_bg_1.png);
+   top: 40%;
+   left: -18%;
+   position: absolute;
+   width: 900px;
+   height: 500px;
+ }
+
+ .section_padding {
+   padding: 90px 0px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .about_top {
+   margin-bottom: 100px;
+}
+
+ .about_top h2 {
+   margin-bottom: 23px;
+}
+
+.about_top img:nth-child(2) {
+   margin-top: 5px;
+   position: absolute;
+   left: 27%;
+   top: 28%;
+   width: 90px;
+}
+
+.about_top img:nth-child(3) {
+   position: absolute;
+   top: 29%;
+   left: 22%;
+   width: 90px;
+}
+
+.about_bar ul li {
+   list-style: none;
+   display: inline-block;
+}
+
+.about_bar ul li a {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: 700;
+   padding-top: 10px;
+   padding-right: 15px;
+}
+
+.about_bar ul li a:hover {
+   color: #18cfab;
+   border-top: 2px solid #18cfab;
+}
+
+.about_bar ul {
+   margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /**************************************
+      About Section Start
  **************************************/
