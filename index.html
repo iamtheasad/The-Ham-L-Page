@@ -378,135 +378,137 @@
                   </div>
 
                   <div class="about_bar">
-                     <ul>
-                        <li>
-                           <button class="btn about_history_btn about_btn">our History</button>
+                     <ul class="nav" id="myTab" role="tablist">
+                        <li class="nav-item">
+                           <a class="about_link active" id="history_tab" data-toggle="tab" href="#history"
+                              role="tab" aria-controls="history" aria-selected="true">our History</a>
                         </li>
-
-                        <li>
-                           <button class="btn about_biography_btn about_btn">our Biography</button>
+                        <li class="nav-item">
+                           <a class="about_link" id="biography_tab" data-toggle="tab" href="#biography"
+                              role="tab" aria-controls="biography" aria-selected="false">our Biography</a>
                         </li>
-
-                        <li>
-                           <button class="btn about_skills_btn about_btn">our Skills</button>
+                        <li class="nav-item">
+                           <a class="about_link" id="skills_tab" data-toggle="tab" href="#skills" role="tab"
+                              aria-controls="skills" aria-selected="false">our Skills</a>
                         </li>
                      </ul>
                   </div><!-- about_bar / -->
 
                    <!-- our_history -->
-                   <div id="our_history" class="about_progressbar">
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_1" role="progressbar" style="width: 25%"
-                           aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                           <p>Our History</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_2" role="progressbar" style="width: 50%"
-                           aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                           <p>Web Design</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_3" role="progressbar" style="width: 75%"
-                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                           <p>Wordpress</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_4" role="progressbar" style="width: 100%"
-                           aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                           <p>html & css</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_5" role="progressbar" style="width: 90%"
-                           aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                           <p>app design</p>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- our_history / -->
+                  <div class="tab-content about_tab" id="myTabContent">
+                     <div class="tab-pane fade show active" id="history" role="tabpanel"
+                        aria-labelledby="history_tab">
+                        <div id="our_history" class="about_progressbar">
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_1" role="progressbar" style="width: 25%"
+                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                 <p>Our History</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_2" role="progressbar" style="width: 50%"
+                                 aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                 <p>Web Design</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_3" role="progressbar" style="width: 75%"
+                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                 <p>Wordpress</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_4" role="progressbar" style="width: 100%"
+                                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                 <p>html & css</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_5" role="progressbar" style="width: 90%"
+                                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                 <p>app design</p>
+                              </div>
+                           </div>
+                        </div><!-- our_history / -->
+                     </div><!-- tab-pane / -->
 
-                  <!-- our_biography -->
-                  <div id="our_biography" class="about_progressbar">
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_1" role="progressbar" style="width: 25%"
-                           aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                           <p>Biography</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_2" role="progressbar" style="width: 50%"
-                           aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                           <p>Web Design</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_3" role="progressbar" style="width: 75%"
-                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                           <p>Wordpress</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_4" role="progressbar" style="width: 100%"
-                           aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                           <p>html & css</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_5" role="progressbar" style="width: 90%"
-                           aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                           <p>app design</p>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- our_biography / -->
+                     <!-- our_biography -->
+                     <div class="tab-pane fade" id="biography" role="tabpanel" aria-labelledby="biography_tab">
+                        <div id="our_biography" class="about_progressbar">
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_1" role="progressbar" style="width: 55%"
+                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                 <p>Biography</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_2" role="progressbar" style="width: 50%"
+                                 aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                 <p>Web Design</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_3" role="progressbar" style="width: 65%"
+                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                 <p>Wordpress</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_4" role="progressbar" style="width: 100%"
+                                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                 <p>html & css</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_5" role="progressbar" style="width: 90%"
+                                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                 <p>app design</p>
+                              </div>
+                           </div>
+                        </div><!-- our_biography / -->
+                     </div><!-- tab-pane / -->
 
-                  <!-- our_skills -->
-                  <div id="our_skills" class="about_progressbar">
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_1" role="progressbar" style="width: 25%"
-                           aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                           <p>Our Skill</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_2" role="progressbar" style="width: 50%"
-                           aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                           <p>Web Design</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_3" role="progressbar" style="width: 75%"
-                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                           <p>Wordpress</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_4" role="progressbar" style="width: 100%"
-                           aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                           <p>html & css</p>
-                        </div>
-                     </div>
-                     <div class="progress custom_progress">
-                        <div class="progress-bar about_bar_5" role="progressbar" style="width: 90%"
-                           aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                           <p>app design</p>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- our_skills / -->
-
+                     <!-- our_skills -->
+                     <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills_tab">
+                        <div id="our_skills" class="about_progressbar">
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_1" role="progressbar" style="width: 95%"
+                                 aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                 <p>Our Skill</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_2" role="progressbar" style="width: 40%"
+                                 aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                 <p>Web Design</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_3" role="progressbar" style="width: 50%"
+                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                 <p>Wordpress</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_4" role="progressbar" style="width: 100%"
+                                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                 <p>html & css</p>
+                              </div>
+                           </div>
+                           <div class="progress custom_progress">
+                              <div class="progress-bar about_bar_5" role="progressbar" style="width: 90%"
+                                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                 <p>app design</p>
+                              </div>
+                           </div>
+                        </div><!-- our_skills / -->
+                     </div><!-- tab-pane / -->
+                  </div><!-- about_tab / -->
                </div>
             </div><!-- row / -->
          </div><!-- container / -->
       </div><!-- about_bg / -->
    </section><!-- About Section End -->
-
-
-
-
 
 
 

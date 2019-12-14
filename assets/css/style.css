@@ -584,14 +584,6 @@ a.card_dollar_bg span {
    width: 90px;
 }
 
-.about_bar {
-   margin-top: 141px;
-}
-
-.about_bar ul {
-   margin-bottom: 60px;
-}
-
 .custom_progress {
    background-color: transparent;
    height: 40px;
@@ -609,21 +601,25 @@ a.card_dollar_bg span {
    font-family: 'Montserrat', sans-serif;
 }
 
-.about_btn {
+.about_bar {
+   margin-bottom: 35px;
+}
+
+.nav-item .about_link {
    color: #fff;
    text-transform: uppercase;
+   margin-top: 10px;
+   margin-right: 15px;
    font-weight: 700;
    font-size: 16px;
-   transition: .3s;
-   padding-top: 15px;
+   text-decoration: none;
+   transition: .1s;
+   padding-top: 12px;
 }
 
-.about_btn:focus {
-   box-shadow: none;
-}
-
-.about_bar ul li {
-   display: inline;
+.nav-item .about_link:hover {
+   border-top: 2px solid #18cfab;
+   color: #18cfab;
 }
 
 .about_bar_1 {
@@ -644,18 +640,6 @@ a.card_dollar_bg span {
 
 .about_bar_5 {
    background-color: #bb8a36;
-}
-
-
-.about_history_btn.btn:hover .out_history {
-   visibility: visible;
-   color: #18cfab;
-}
-
-.btn.about_history_btn:hover,
-.btn.about_biography_btn:hover,
-.btn.about_skills_btn:hover {
-   color: #18cfab;
 }
 
 
