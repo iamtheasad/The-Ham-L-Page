@@ -93,53 +93,35 @@ $(document).ready(function () {
     var number = $(this).index();
     bigimage.data("owl.carousel").to(number, 300, true);
   });
+
 });
 
 
-//  About Section
+// Portfolio Isotope
 jQuery(document).ready(function () {
-  // $('#about_history_btn').click(function () {
-  //   $('#our_history').toggle();
-  // });
+  // For Isotope card or image auto height 
+  var $portfolioIsotope = $('.portfolio_list').isotope({
+    itemSelector: '.portfolio_item',
+    percentPosition: true,
+    masonry: {
+      columnWidth: '.portfolio_item'
+    }
+  })
 
-  // $('#about_biography_btn').click(function(){
-  //   $('#our_biography').toggle("slow");
-  // });
-
-  // $('#about_skills_btn').click(function(){
-  //   $('#our_skills').toggle("slow");
-  // });
-
-  $(document).ready(function(){
-    $('.collapsible').collapsible();
+  // Connected items between button and isotope item
+  $('.portfolio_isotope_menu').on('click', 'button', function () {
+    var filterValue = $(this).attr('data-filter');
+    $portfolioIsotope.isotope({
+      filter: filterValue
+    });
   });
 
-
+  // Button active class added for isotope
+  $('.portfolio_isotope_menu').each(function (i, buttonGroup) {
+    var $buttonGroup = $(buttonGroup);
+    $buttonGroup.on('click', 'button', function () {
+      $buttonGroup.find('.active_portfolio').removeClass('active_portfolio');
+      $(this).addClass('active_portfolio');
+    });
+  });
 });
-
-
-// $(document).on("click", function(e){
-//   if($(e.target).is("#about_history_btn")){
-//     $("#our_history").show();
-//   }else{
-//       $("#our_history").hide();
-//   }
-
-//   if($(e.target).is("#about_biography_btn")){
-//     $("#our_biography").show();
-//   }else{
-//     $("#our_biography").hide();
-//   }
-
-//   if($(e.target).is("#about_skills_btn")){
-//     $("#our_skills").show();
-//   }else{
-//     $("#our_skills").hide();
-//   }
-
-// });
-
-
-
-
-     
