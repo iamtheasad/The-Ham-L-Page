@@ -725,7 +725,7 @@ a.card_dollar_bg span {
 }
 
 .single_portfolio_item:hover .portfolio_hover:after {
-   opacity: 0;
+   opacity: 0.5;
 }
 
 .portfolio_isotope_menu {
@@ -769,7 +769,7 @@ a.card_dollar_bg span {
    height: 100%;
    top: 0;
    left: 0;
-   opacity: 0.9;
+   opacity: 0.8;
    transition: .2s;
 }
 
@@ -792,7 +792,7 @@ a.card_dollar_bg span {
 
 .portfolio_table h5 {
    font-size: 12px;
-   font-weight: 500;
+   font-weight: 600;
    margin-top: 10px;
    color: #fff;
 }
@@ -828,7 +828,7 @@ button.active_portfolio {
    text-transform: uppercase;
    padding: 20px 30px;
    display: inline-block;
-   margin-top: 50px;
+   margin-top: 70px;
    border-radius: 5px;
 }
 
