@@ -848,3 +848,97 @@ button.active_portfolio {
 /**************************************
       Portfolio Section Start
  **************************************/
+
+
+ /**************************************
+   Product of Services Section Start
+ **************************************/
+.product_menu {
+   margin-top: 50px;
+}
+
+.nav-tabs .p_menu_item {
+   color: #717171;
+   font-size: 16px;
+   font-weight: 500;
+   border: 1px solid #ddd;
+   border-radius: 0;
+   margin-right: -1px;
+   background: #f8fcfe;
+   padding: 20px 30px;
+}
+
+.service_after {
+   position: relative;
+}
+
+.service_after:after {
+   content: '';
+   position: absolute;
+   top: 82%;
+   left: 44%;
+   width: 20px;
+   height: 20px;
+   background-color: #18cfab;
+   transform: rotate(45deg);
+   visibility: hidden;
+}
+
+.service_after.active.service_after:after {
+   visibility: visible;
+}
+
+.nav-tabs .p_menu_item:hover {
+   color: white;
+   background-color: #18cfab;
+   border-color: #18cfab;
+}
+
+.product_menu ul.nav-tabs {
+   border: none;
+   margin-bottom: 25px;
+}
+
+ .nav-tabs .p_menu_item.active {
+   color: #ffffff;
+   background-color: #18cfab;
+   border: 1px solid #18cfab;
+}
+
+ /**************************************
+   Product of Services Section End
+ **************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
