@@ -267,6 +267,7 @@ img {
    font-weight: 700;
    margin: 30px;
    transition: .3s;
+   display: inline-block;
 }
 
 .sub_purchase {
@@ -837,6 +838,11 @@ button.active_portfolio {
    display: inline-block;
    margin-top: 70px;
    border-radius: 5px;
+   transition: 0.2s;
+}
+
+.portfolio_btn a:hover {
+   background-color: #00CBF6;
 }
 
 .portfolio_btn a span {
@@ -910,11 +916,36 @@ button.active_portfolio {
  **************************************/
 
 
+ /**************************************
+  Call to Action Section Start
+ **************************************/
+ #call_to_action {
+   background-color: #40474B;
+}
 
+ .call_action h2 {
+   font-size: 40px;
+   font-weight: 700;
+   color: #18cfab;
+   text-transform: uppercase;
+   letter-spacing: -0.01em;
+}
 
+.call_action p {
+   color: #d8d8d8;
+   font-size: 16px;
+   margin-top: 30px;
+   margin-bottom: 70px;
+   font-weight: 500;
+}
+ 
+ .purchase_btn.boxed_btn {
+   margin: 0px;
+}
 
-
-
+ /**************************************
+  Call to Action Section End
+ **************************************/
 
 
 
