@@ -374,7 +374,7 @@ section#theme_option {
 }
 
 .pricing_top {
-   height: 100px;
+   margin-bottom: 28px;
 }
 
 .pricing_top h2 {
@@ -382,19 +382,28 @@ section#theme_option {
    font-weight: 700;
 }
 
-.pricing_top img:nth-child(2) {
-   margin-top: 5px;
+.pricing_bar {
+   position: relative;
+   height: 5px;
+}
+
+.border_top {
+   background: #18cfab;
+   display: block;
+   width: 90px;
+   height: 1px;
+   margin: 0 auto;
+}
+
+.border_bottom {
+   width: 90px;
+   height: 1px;
+   background: #18cfab;
+   display: block;
    position: absolute;
    left: 48%;
-   top: 70%;
+   top: 90%;
 }
-
-.pricing_top img {
-   width: 90px;
-   display: block;
-   margin: 27px auto;
-}
-
 
 /* card pricing sart */
 .margin_0 {
@@ -738,7 +747,7 @@ a.card_dollar_bg span {
 }
 
 .portfolio_isotope_menu {
-   margin: 50px 0px;
+   margin: 70px 0px;
 }
 
 .portfolio_isotope_menu button {
@@ -859,10 +868,6 @@ button.active_portfolio {
  /**************************************
    Product of Services Section Start
  **************************************/
-.product_menu {
-   margin-top: 50px;
-}
-
 .nav-tabs .p_menu_item {
    color: #717171;
    font-size: 16px;
@@ -948,13 +953,87 @@ button.active_portfolio {
  **************************************/
 
 
+ /**************************************
+   Breaking News Section Start
+ **************************************/
+ .breaking_news {
+   background-color: #f8fcfe;
+   width: 263px;
+   padding-bottom: 10px;
+   position: relative;
+}
 
+.margin_bottom_none {
+   margin-bottom: 30px;
+}
 
+.margin_bottom_none:last-child {
+   margin-bottom: 0px;
+}
 
+ .breaking_news img {
+   width: 263px;
+   height: 229px;
+}
 
+.breaking_news h3 {
+   font-size: 18px;
+   font-weight: 700;
+   color: #18cfab;
+   margin: 15px;
+}
 
+.breaking_news a {
+   margin: 15px;
+   color: #777777;
+   text-decoration: none;
+}
 
+.news_box {
+   position: absolute;
+   top: 0;
+   right: 0%;
+   background-color: #203e38;
+   width: 67px;
+   height: 67px;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 500;
+   transition: .2s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   z-index: 2;
+}
 
+.breaking_news:hover .news_box{
+   background-color: #18cfab;
+}
+
+.news_box span {
+   display: block;
+}
+
+.news_img:after {
+   position: absolute;
+   content: '';
+   background: linear-gradient(45deg, black, transparent);
+   opacity: .5;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 229px;
+   visibility: hidden;
+}
+
+.breaking_news:hover .news_img:after {
+   visibility: visible;
+}
+
+ /**************************************
+   Breaking News Section End
+ **************************************/
 
 
 
