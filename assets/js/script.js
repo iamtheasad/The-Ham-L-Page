@@ -97,7 +97,8 @@ $(document).ready(function () {
 });
 
 
-// Portfolio Isotope
+/* Portfolio Isotope */
+
 jQuery(document).ready(function () {
   // For Isotope card or image auto height 
   var $portfolioIsotope = $('.portfolio_list').isotope({
@@ -125,3 +126,6 @@ jQuery(document).ready(function () {
     });
   });
 });
+
+
+
