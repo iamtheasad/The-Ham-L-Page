@@ -144,6 +144,6 @@ jQuery(document).ready(function(){
     asNavFor: '.opinion_slider',
     dots: false,
     centerMode: true,
-    focusOnSelect: true
+    focusOnSelect: true,
   });
 });

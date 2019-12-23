@@ -1180,9 +1180,10 @@ button.active_portfolio {
    outline: none;
 }
 
-.opinion_nav .slick-track {
-   display: flex;
+#opinion_section .row.op {
    width: 1170px;
+   display: flex;
+   justify-content: center;
 }
 
 .single_opinion {
@@ -1192,8 +1193,8 @@ button.active_portfolio {
 .opinion_author_arrow_bg {
    margin: 0 auto;
    background: rgba(24, 207, 171, 0.2);
-   width: 110px;
-   height: 110px;
+   width: 70px;
+   height: 70px;
    border-radius: 50%;
    line-height: 110px;
    text-align: center;
@@ -1201,8 +1202,8 @@ button.active_portfolio {
 }
 
 .opinion_author_arrow_img img {
-   width: 100px;
-   height: 100px;
+   width: 60px;
+   height: 60px;
    border-radius: 50%;
    border: 2px solid rgba(24, 207, 170, 0);
 }
