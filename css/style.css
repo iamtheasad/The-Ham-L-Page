@@ -1173,6 +1173,7 @@ button.active_portfolio {
 
 .opinion_nav {
    margin-top: 60px;
+   position: relative;
 }
 
 .opinion_nav .slick-slide:focus,
@@ -1216,6 +1217,37 @@ button.active_portfolio {
    margin-top: -12px;
 }
 
+.row.opinion_nav .slick-prev {
+   background: rgba(24, 207, 171, 0.05);
+   padding: 10px 15px;
+   border-radius: 5px;
+   border: 2px solid transparent;
+   font-size: 14px;
+   font-weight: 500;
+   position: absolute;
+   top: 50%;
+   left: -19%;
+   color: #fff;
+}
+
+.row.opinion_nav .slick-next {
+   background: rgba(24, 207, 171, 0.05);
+   padding: 10px 15px;
+   color: #fff;
+   border: 2px solid transparent;
+   font-size: 14px;
+   font-weight: 500;
+   position: absolute;
+   top: 50%;
+   right: -14%;
+   border-radius: 2px;
+}
+
+.opinion_nav button.slick-prev:focus,
+.opinion_nav button.slick-next:focus {
+   outline: none;
+   background: rgba(24, 207, 171, 0.20);
+}
 
 /**************************************
    Opinion Section End
