@@ -128,4 +128,22 @@ jQuery(document).ready(function () {
 });
 
 
-
+/*Opinion Slick Slider*/
+jQuery(document).ready(function(){
+  $('.opinion_slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.opinion_nav',
+    infinite: true
+  });
+  $('.opinion_nav').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    asNavFor: '.opinion_slider',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true
+  });
+});
