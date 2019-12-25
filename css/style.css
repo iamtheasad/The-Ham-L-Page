@@ -1260,3 +1260,146 @@ button.active_portfolio {
 /**************************************
    Opinion Section End
  **************************************/
+
+
+/**************************************
+   Meet Our Team Section Start
+ **************************************/
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+.single_meet_item {
+   background: #2E4A5B;
+   -webkit-transition: .5s;
+   -o-transition: .5s;
+   transition: .5s;
+}
+
+.single_meet_item:hover .meet_img:after,
+.single_meet_item:hover .meet_overlay_outline {
+   visibility: visible;
+}
+
+.single_meet_item:hover .meet_text h6 {
+   color: #2e4a5b;
+}
+
+.single_meet_item:hover {
+   background: #18cfab;
+}
+
+.meet_overlay_outline {
+   position: absolute;
+   top: 35%;
+   left: 35%;
+   background: transparent;
+   width: 85px;
+   height: 85px;
+   text-align: center;
+   border: 2px solid #18CFAB;
+   border-radius: 50%;
+   visibility: hidden;
+   z-index: 1;
+   -webkit-transition: .1s;
+   -o-transition: .1s;
+   transition: .1s;
+}
+
+.meet_overlay_bg {
+   background: #fff;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   line-height: 70px;
+   font-size: 20px;
+   margin: 5px;
+}
+
+.meet_overlay_bg a {
+   color: #18cfab;
+   padding: 20px;
+}
+
+.meet_img {
+   position: relative;
+   z-index: 2;
+}
+
+.meet_img img {
+   width: 100%;
+   height: 229px;
+}
+
+.meet_img:after {
+   position: absolute;
+   content: '';
+   background: rgba(0, 0, 0, 0.79);
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   visibility: hidden;
+   -webkit-transition: .1s;
+   -o-transition: .1s;
+   transition: .1s;
+}
+
+.meet_text {
+   margin: 20px 20px;
+}
+
+.meet_text h5 {
+   color: #fff;
+   font-size: 16px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.meet_text h6 {
+   font-size: 13px;
+   color: #18cfab;
+   font-weight: 500;
+   -webkit-transition: .5s;
+   -o-transition: .5s;
+   transition: .5s;
+}
+
+.meet_socials {
+   line-height: 70px;
+}
+
+.meet_socials ul {
+   border-top: 1px solid #ddd;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+}
+
+.meet_socials ul li {
+   list-style: none;
+   position: relative;
+}
+
+.meet_socials ul li:after {
+   position: absolute;
+   content: '';
+   background: #ddd;
+   width: 1px;
+   height: 72px;
+}
+
+.meet_socials ul li:last-child:after {
+   background: unset;
+}
+
+.meet_socials ul li a {
+   font-size: 20px;
+   padding: 22px;
+   color: #fff;
+}
+
+/**************************************
+   Meet Our Team Section End
+ **************************************/
