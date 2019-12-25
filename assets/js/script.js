@@ -135,11 +135,10 @@ jQuery(document).ready(function(){
     slidesToScroll: 1,
     fade: true,
     asNavFor: '.opinion_nav',
-    autoplay: true,
 
   });
   $('.opinion_nav').slick({
-    slidesToShow: 6,
+    slidesToShow: 1,
     slidesToScroll: 1,
     asNavFor: '.opinion_slider',
     centerMode: true,

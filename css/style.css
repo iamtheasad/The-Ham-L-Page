@@ -1217,36 +1217,34 @@ button.active_portfolio {
    margin-top: -12px;
 }
 
-.row.opinion_nav .slick-prev {
-   background: rgba(24, 207, 171, 0.05);
+.row.opinion_nav .slick-prev,
+.row.opinion_nav .slick-next {
+   background: rgba(24, 207, 171, 0.00);
    padding: 10px 15px;
-   border-radius: 5px;
-   border: 2px solid transparent;
+   color: #5d6972;
+   border: 2px solid #5d6972;
    font-size: 14px;
    font-weight: 500;
+}
+
+.row.opinion_nav .slick-prev {
    position: absolute;
    top: 50%;
    left: -19%;
-   color: #fff;
 }
 
 .row.opinion_nav .slick-next {
-   background: rgba(24, 207, 171, 0.05);
-   padding: 10px 15px;
-   color: #fff;
-   border: 2px solid transparent;
-   font-size: 14px;
-   font-weight: 500;
    position: absolute;
    top: 50%;
    right: -14%;
-   border-radius: 2px;
 }
 
 .opinion_nav button.slick-prev:focus,
 .opinion_nav button.slick-next:focus {
    outline: none;
-   background: rgba(24, 207, 171, 0.20);
+   background: rgb(24, 207, 171);
+   border: 2px solid rgba(24, 207, 171, .0);
+   color: #fff;
 }
 
 /**************************************
