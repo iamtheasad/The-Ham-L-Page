@@ -374,12 +374,22 @@ section#theme_option {
 }
 
 .pricing_top,
-.opinion_top {
+.opinion_top,
+.our_team_top,
+.b_top,
+.product_top,
+.portfolio_top,
+.service_top {
    margin-bottom: 28px;
 }
 
 .pricing_top h2,
-.opinion_top h2 {
+.opinion_top h2,
+.our_team_top h2,
+.b_top h2,
+.product_top h2,
+.portfolio_top h2,
+.service_top h2 {
    font-size: 36px;
    font-weight: 700;
 }
