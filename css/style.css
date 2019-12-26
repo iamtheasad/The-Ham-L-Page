@@ -1251,7 +1251,6 @@ button.active_portfolio {
 }
 
 #opinion_section .row.op {
-   width: 1170px;
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -1478,6 +1477,7 @@ button.active_portfolio {
    color: #fff;
    text-transform: uppercase;
    font-weight: bold;
+   line-height: 60px;
 }
 
 .theme_feature_top h2 span {
