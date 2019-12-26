@@ -10,6 +10,7 @@
 }
 
 body {
+   -webkit-box-sizing: border-box;
    box-sizing: border-box;
    color: #777777;
    font-size: 14px;
@@ -81,6 +82,8 @@ img {
 .menu ul li a {
    text-decoration: none;
    color: #b8b8b8;
+   -webkit-transition: .3s;
+   -o-transition: .3s;
    transition: .3s;
    display: block;
    padding: 10px 10px;
@@ -151,6 +154,8 @@ img {
 
 .owl-theme .owl-nav [class*='owl-'] {
    -webkit-transition: all .3s ease;
+   -webkit-transition: all .9s ease;
+   -o-transition: all .9s ease;
    transition: all .9s ease;
 }
 
@@ -221,7 +226,11 @@ img {
 
 #thumbs .owl-nav {
    color: #ffffff;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
    justify-content: space-between;
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
 }
 
@@ -260,18 +269,23 @@ img {
    background: #18cfab;
    text-transform: uppercase;
    padding: 15px 30px;
+   -webkit-box-shadow: 0px -4px 0px;
    box-shadow: 0px -4px 0px;
    border: none;
    outline: none;
    border-radius: 7px;
    font-weight: 700;
    margin: 30px;
+   -webkit-transition: .3s;
+   -o-transition: .3s;
    transition: .3s;
    display: inline-block;
 }
 
 .sub_purchase {
    background: #00cbf6;
+   -webkit-transition: .3s;
+   -o-transition: .3s;
    transition: .3s;
 }
 
@@ -306,6 +320,8 @@ section#theme_option {
 }
 
 .option_content {
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
 }
 
@@ -441,13 +457,18 @@ section#theme_option {
 }
 
 .pricing_card_content:hover .price_card {
+   -webkit-box-shadow: 0px 0px 6px #717171;
    box-shadow: 0px 0px 6px #717171;
+   -webkit-transform: scale(1.01);
+   -ms-transform: scale(1.01);
    transform: scale(1.01);
 }
 
 .price_card a.card_dollar_bg,
 .price_card a.boxed_btn,
 .price_card h3 {
+   -webkit-transition: .3s;
+   -o-transition: .3s;
    transition: .3s;
 }
 
@@ -473,6 +494,8 @@ span.active_offer_card {
    position: absolute;
    top: 18%;
    right: -8%;
+   -webkit-transform: rotate(58deg);
+   -ms-transform: rotate(58deg);
    transform: rotate(58deg);
    color: #fff;
    font-size: 13px;
@@ -545,6 +568,8 @@ a.card_dollar_bg span {
    font-size: 18px;
    color: #717171;
    font-weight: 700;
+   -webkit-transition: .3s;
+   -o-transition: .3s;
    transition: .3s;
 }
 
@@ -656,15 +681,19 @@ a.card_dollar_bg span {
    font-size: 16px;
    text-decoration: none;
    padding-top: 12px;
+   -webkit-transition: .1s;
+   -o-transition: .1s;
    transition: .1s;
 }
 
 .nav-item .about_link:hover {
+   -webkit-box-shadow: 0px -2px 0px 0px #18cfab;
    box-shadow: 0px -2px 0px 0px #18cfab;
    color: #18cfab;
 }
 
 .about_bar .active {
+   -webkit-box-shadow: 0px -2px 0px 0px #18cfab;
    box-shadow: 0px -2px 0px 0px #18cfab;
    color: #18cfab;
 }
@@ -756,6 +785,7 @@ a.card_dollar_bg span {
 }
 
 .single_portfolio_item:hover {
+   -webkit-box-shadow: 0px 4px 0px 0px #18CFAB inset;
    box-shadow: 0px 4px 0px 0px #18CFAB inset;
 }
 
@@ -778,6 +808,8 @@ a.card_dollar_bg span {
    background-color: #fff;
    padding: 25px 20px;
    border: 1px solid #ddd;
+   -webkit-transition: .1s;
+   -o-transition: .1s;
    transition: .1s;
    font-weight: 700;
    margin-right: -5px;
@@ -786,12 +818,19 @@ a.card_dollar_bg span {
 
 .portfolio_isotope_menu button:hover {
    color: #18CFAB;
+   -webkit-box-shadow: 0px -2px 0px 0px #18CFAB;
    box-shadow: 0px -2px 0px 0px #18CFAB;
 }
 
 .portfolio_hover {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
    align-items: center;
    height: 100%;
    width: 100%;
@@ -808,6 +847,8 @@ a.card_dollar_bg span {
    top: 0;
    left: 0;
    opacity: 0.5;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
    transition: .2s;
 }
 
@@ -853,6 +894,7 @@ a.card_dollar_bg span {
 }
 
 button.active_portfolio {
+   -webkit-box-shadow: 0px -2px 0px 0px #18CFAB;
    box-shadow: 0px -2px 0px 0px #18CFAB;
    color: #18cfab;
 }
@@ -868,6 +910,8 @@ button.active_portfolio {
    display: inline-block;
    margin-top: 70px;
    border-radius: 5px;
+   -webkit-transition: 0.2s;
+   -o-transition: 0.2s;
    transition: 0.2s;
 }
 
@@ -912,6 +956,8 @@ button.active_portfolio {
    width: 20px;
    height: 20px;
    background-color: #18cfab;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
    transform: rotate(45deg);
    visibility: hidden;
 }
@@ -1020,9 +1066,17 @@ button.active_portfolio {
    color: #fff;
    font-size: 16px;
    font-weight: 500;
+   -webkit-transition: .2s;
+   -o-transition: .2s;
    transition: .2s;
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
    align-items: center;
    text-align: center;
    z-index: 2;
@@ -1039,6 +1093,7 @@ button.active_portfolio {
 .news_img:after {
    position: absolute;
    content: '';
+   background: -o-linear-gradient(45deg, black, transparent);
    background: linear-gradient(45deg, black, transparent);
    opacity: .5;
    top: 0;
@@ -1197,7 +1252,11 @@ button.active_portfolio {
 
 #opinion_section .row.op {
    width: 1170px;
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
 }
 
@@ -1462,8 +1521,14 @@ button.active_portfolio {
    height: 24px;
    border-radius: 50%;
    font-size: 15px;
+   display: -webkit-inline-box;
+   display: -ms-inline-flexbox;
    display: inline-flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
    justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
    align-items: center;
    margin-right: 10px;
    color: #233641;
