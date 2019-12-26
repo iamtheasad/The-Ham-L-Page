@@ -1,5 +1,4 @@
-
-/* Header Slider With Picture Thumbnail Start */ 
+/* Header Slider With Picture Thumbnail Start */
 
 $(document).ready(function () {
   var bigimage = $(".header_slider");
@@ -98,7 +97,7 @@ $(document).ready(function () {
 
 });
 
-/* Header Slider With Picture Thumbnail End */ 
+/* Header Slider With Picture Thumbnail End */
 
 
 /* Portfolio Isotope Start */
@@ -145,6 +144,10 @@ jQuery(document).ready(function () {
     asNavFor: '.opinion_nav',
     nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
     prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnFocus: false,
+    pauseOnHover: false,
   });
   $('.opinion_nav').slick({
     slidesToShow: 4,
