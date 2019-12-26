@@ -141,10 +141,10 @@ jQuery(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
+    infinite: true,
     asNavFor: '.opinion_nav',
-    prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
     nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-    arrows: false,
+    prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
   });
   $('.opinion_nav').slick({
     slidesToShow: 4,

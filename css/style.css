@@ -1197,6 +1197,17 @@ button.active_portfolio {
  **************************************/
 #opinion_section {
    background: #2E404D;
+   max-width: 1920px;
+   margin: 0 auto;
+}
+
+#opinion_section .row.op {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
 }
 
 .opinion_top h2 {
@@ -1240,6 +1251,22 @@ button.active_portfolio {
    border-radius: 50%;
 }
 
+.opinion_slider .slick-prev {
+   position: absolute;
+   top: 50%;
+   left: 4%;
+   z-index: 2;
+   display: none !important;
+}
+
+.opinion_slider .slick-next {
+   position: absolute;
+   top: 50%;
+   right: 4%;
+   z-index: 2;
+   display: none !important;
+}
+
 .opinion_nav {
    margin-top: 60px;
    position: relative;
@@ -1248,15 +1275,6 @@ button.active_portfolio {
 .opinion_nav .slick-slide:focus,
 .opinion_slider .slick-slide:focus {
    outline: none;
-}
-
-#opinion_section .row.op {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-pack: center;
-   -ms-flex-pack: center;
-   justify-content: center;
 }
 
 .single_opinion {
@@ -1290,7 +1308,9 @@ button.active_portfolio {
 }
 
 .row.opinion_nav .slick-prev,
-.row.opinion_nav .slick-next {
+.row.opinion_nav .slick-next,
+.opinion_slider .slick-prev,
+.opinion_slider .slick-next {
    background: rgba(24, 207, 171, 0.00);
    padding: 10px 15px;
    color: #5d6972;
@@ -1313,6 +1333,14 @@ button.active_portfolio {
 
 .opinion_nav button.slick-prev:focus,
 .opinion_nav button.slick-next:focus {
+   outline: none;
+   background: rgb(24, 207, 171);
+   border: 2px solid rgba(24, 207, 171, .0);
+   color: #fff;
+}
+
+.opinion_slider button.slick-prev:focus,
+.opinion_slider button.slick-next:focus {
    outline: none;
    background: rgb(24, 207, 171);
    border: 2px solid rgba(24, 207, 171, .0);
@@ -1386,7 +1414,7 @@ button.active_portfolio {
 
 .meet_img img {
    width: 100%;
-   height: 229px;
+   height: auto;
 }
 
 .meet_img:after {
@@ -1517,10 +1545,10 @@ button.active_portfolio {
 
 .theme_feature_content li a span {
    background: #18CFAB;
-   width: 24px;
-   height: 24px;
+   width: 20px;
+   height: 20px;
    border-radius: 50%;
-   font-size: 15px;
+   font-size: 12px;
    display: -webkit-inline-box;
    display: -ms-inline-flexbox;
    display: inline-flex;
