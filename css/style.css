@@ -1451,41 +1451,23 @@ button.active_portfolio {
    transition: .5s;
 }
 
-.meet_socials {
-   line-height: 70px;
-}
-
-.meet_socials ul {
-   border-top: 1px solid #ddd;
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-pack: center;
-   -ms-flex-pack: center;
-   justify-content: center;
-}
-
-.meet_socials ul li {
-   list-style: none;
-   position: relative;
-}
-
-.meet_socials ul li:after {
-   position: absolute;
-   content: '';
-   background: #ddd;
-   width: 1px;
-   height: 72px;
-}
-
-.meet_socials ul li:last-child:after {
-   background: unset;
-}
-
-.meet_socials ul li a {
+.meet_socials a {
+   display: inline-block;
    font-size: 20px;
-   padding: 22px;
    color: #fff;
+   width: 58px;
+   border-right: 1px solid #ddd;
+   line-height: 48px;
+   margin-right: .14rem;
+}
+
+.meet_socials {
+   text-align: center;
+   border-top: 1px solid #ddd;
+}
+
+.meet_socials a:last-child {
+   border-right: none;
 }
 
 /**************************************
