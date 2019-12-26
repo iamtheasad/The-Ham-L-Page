@@ -1,4 +1,6 @@
-// Slider with picture thumbnail
+
+/* Header Slider With Picture Thumbnail Start */ 
+
 $(document).ready(function () {
   var bigimage = $(".header_slider");
   var thumbs = $("#thumbs");
@@ -96,8 +98,10 @@ $(document).ready(function () {
 
 });
 
+/* Header Slider With Picture Thumbnail End */ 
 
-/* Portfolio Isotope */
+
+/* Portfolio Isotope Start */
 
 jQuery(document).ready(function () {
   // For Isotope card or image auto height 
@@ -127,8 +131,11 @@ jQuery(document).ready(function () {
   });
 });
 
+/* Portfolio Isotope End */
 
-/*Opinion Slick Slider*/
+
+/* Opinion Slick Slider Start */
+
 jQuery(document).ready(function () {
   $('.opinion_slider').slick({
     slidesToShow: 1,
@@ -149,3 +156,5 @@ jQuery(document).ready(function () {
     nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
   });
 });
+
+/* Opinion Slick Slider End */
