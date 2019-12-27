@@ -393,13 +393,18 @@ section#theme_option {
    padding-top: 90px;
 }
 
+.height_85 {
+   padding-top: 85px;
+}
+
 .pricing_top,
 .opinion_top,
 .our_team_top,
 .b_top,
 .product_top,
 .portfolio_top,
-.service_top {
+.service_top,
+.about_top {
    margin-bottom: 28px;
 }
 
@@ -409,7 +414,8 @@ section#theme_option {
 .b_top h2,
 .product_top h2,
 .portfolio_top h2,
-.service_top h2 {
+.service_top h2,
+.about_top h2 {
    font-size: 36px;
    font-weight: 700;
 }
@@ -624,17 +630,8 @@ a.card_dollar_bg span {
    background-repeat: no-repeat;
 }
 
-.about_top {
-   margin-bottom: 100px;
-   display: block;
-}
-
 .about_top h2 {
    color: #fff;
-}
-
-.about_top h2 {
-   margin-bottom: 23px;
 }
 
 .about_top img:nth-child(2) {
