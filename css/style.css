@@ -648,6 +648,16 @@ a.card_dollar_bg span {
    width: 90px;
 }
 
+.about_border_top {
+   position: absolute;
+   left: 25%;
+}
+
+.about_border_bottom {
+   position: absolute;
+   left: 30%;
+}
+
 .custom_progress {
    background-color: transparent;
    height: 40px;
@@ -1550,21 +1560,3 @@ button.active_portfolio {
 /**************************************************
   Theme is not only wordpress Theme End
  **************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
