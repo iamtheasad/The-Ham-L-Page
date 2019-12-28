@@ -157,13 +157,25 @@ jQuery(document).ready(function () {
     focusOnSelect: true,
     prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
     nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-    responsive: [
-      {
-        breakpoint: 1024,
-        slidesToShow: 1,
-      }
-    ]
+    responsive: [{
+      breakpoint: 1024,
+      slidesToShow: 1,
+    }]
   });
 });
 
 /* Opinion Slick Slider End */
+
+
+/* Flicker Image Show Start */
+
+jQuery(document).ready(function () {
+  $(function () {
+    $('.flike_img').flickrush({
+      limit: 20,
+      id: '152854341@N05',
+    });
+  });
+});
+
+/* Flicker Image Show End */
