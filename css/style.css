@@ -1206,8 +1206,6 @@ button.active_portfolio {
  **************************************/
 #opinion_section {
    background: #2E404D;
-   max-width: 1920px;
-   margin: 0 auto;
 }
 
 #opinion_section .row.op {
