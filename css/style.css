@@ -1637,6 +1637,7 @@ button.active_portfolio {
  **************************************************/
 #footer_section {
    background: #1C2B33;
+   padding: 120px 0px;
 }
 
 .footer_content h3 {
@@ -1686,10 +1687,11 @@ button.active_portfolio {
    margin-bottom: 20px;
 }
 
-a.footer_date {
+span.footer_date {
    color: #f1f1f1;
    text-decoration: none;
    cursor: auto;
+   font-size: 14px;
 }
 
 hr.footer_hr {
@@ -1706,7 +1708,7 @@ hr.footer_hr {
 }
 
 .footer_recent_post {
-   transition: .2s;
+   transition: .3s;
 }
 
 .tags a {
@@ -1714,7 +1716,7 @@ hr.footer_hr {
    border: 1px solid #b2b2b2;
    padding: 16px;
    display: inline-block;
-   margin-bottom: 10px;
+   margin-bottom: 5px;
    text-decoration: none;
    color: unset;
    transition: .2s;
