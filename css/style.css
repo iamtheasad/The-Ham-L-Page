@@ -1783,7 +1783,7 @@ input#footer_email,
    margin-right: 10px;
 }
 
-/* Copyright Section */
+/* Copyright Section Start */
 #copyright {
    background: #22353F;
    padding: 40px 0px;
@@ -1794,9 +1794,11 @@ input#footer_email,
    font-weight: 500;
 }
 
-#copyright p span {
+#copyright p a {
    color: #18CFAB;
+   text-decoration: none;
 }
+/* Copyright Section End */
 
 /**************************************************
               Footer Section End
