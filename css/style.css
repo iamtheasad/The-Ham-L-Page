@@ -1773,6 +1773,21 @@ input#footer_email,
    margin-right: 10px;
 }
 
+/* Copyright Section */
+#copyright {
+   background: #22353F;
+   padding: 45px 0px;
+}
+
+#copyright p {
+   color: #aeaeae;
+   font-weight: 500;
+}
+
+#copyright p span {
+   color: #18CFAB;
+}
+
 /**************************************************
               Footer Section End
  **************************************************/
