@@ -113,6 +113,7 @@ img {
    padding-top: 300px;
    padding-bottom: 245px;
    z-index: 1;
+   background-color: #b2b2b2;
 }
 
 .slide_bg_1 {
@@ -791,6 +792,7 @@ a.card_dollar_bg span {
    background-position: center;
    height: 208px;
    position: relative;
+   background-color: #b2b2b2;
 }
 
 .single_portfolio_item:hover {
@@ -992,6 +994,10 @@ button.active_portfolio {
    border: 1px solid #18cfab;
 }
 
+.product_item_img img {
+   background-color: #b2b2b2;
+}
+
 /**************************************
    Product of Services Section End
  **************************************/
@@ -1050,6 +1056,7 @@ button.active_portfolio {
 .breaking_news img {
    width: 263px;
    height: 229px;
+   background-color: #b2b2b2;
 }
 
 .breaking_news h3 {
@@ -1256,6 +1263,7 @@ button.active_portfolio {
    height: 145px;
    border: 2px solid #18CFAB;
    border-radius: 50%;
+   background-color: #b2b2b2;
 }
 
 .opinion_slider .slick-prev {
@@ -1422,6 +1430,7 @@ button.active_portfolio {
 .meet_img img {
    width: 100%;
    height: auto;
+   background-color: #b2b2b2;
 }
 
 .meet_img:after {
@@ -1702,6 +1711,7 @@ hr.footer_hr {
 
 .footer_recent_post img {
    width: 77px;
+   background-color: #b2b2b2;
 }
 
 .footer_recent_post:hover.footer_recent_post h5 {
@@ -1776,7 +1786,7 @@ input#footer_email,
 /* Copyright Section */
 #copyright {
    background: #22353F;
-   padding: 45px 0px;
+   padding: 40px 0px;
 }
 
 #copyright p {
