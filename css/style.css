@@ -1,3 +1,4 @@
+
 /* google fonts link */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,700,800,900&display=swap');
 
@@ -1635,6 +1636,26 @@ button.active_portfolio {
    height: 180px;
 }
 
+.contact_form input::-webkit-input-placeholder,
+.contact_form textarea::-webkit-input-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input::-moz-placeholder,
+.contact_form textarea::-moz-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input:-ms-input-placeholder,
+.contact_form textarea:-ms-input-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input::-ms-input-placeholder,
+.contact_form textarea::-ms-input-placeholder {
+   color: #90aebd;
+}
+
 .contact_form input::placeholder,
 .contact_form textarea::placeholder {
    color: #90aebd;
@@ -1711,7 +1732,7 @@ span.footer_date {
 }
 
 hr.footer_hr {
-   color: #20333e;
+   border: 1px solid #20333e;
    margin: 20px 0px;
 }
 
@@ -1725,6 +1746,8 @@ hr.footer_hr {
 }
 
 .footer_recent_post {
+   -webkit-transition: .3s;
+   -o-transition: .3s;
    transition: .3s;
 }
 
