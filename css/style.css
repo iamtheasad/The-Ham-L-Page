@@ -1756,13 +1756,15 @@ hr.footer_hr {
    border: 1px solid #b2b2b2;
    padding: 16px;
    display: inline-block;
-   margin-bottom: 5px;
+   margin-bottom: 10px;
    text-decoration: none;
    color: unset;
    transition: .2s;
    -webkit-transition: .2s;
    -moz-transition: .2s;
    -o-transition: .2s;
+   margin-right: 5px;
+   width: 30%;
 }
 
 .tags a:hover {
