@@ -1,4 +1,3 @@
-
 /* google fonts link */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,700,800,900&display=swap');
 
@@ -894,10 +893,11 @@ a.card_dollar_bg span {
    height: 42px;
    border: 1px solid #18CFAB;
    border-radius: 50%;
-   padding: 10px;
    color: #18CFAB;
    font-size: 18px;
    margin: 5px;
+   display: inline-block;
+   line-height: 45px;
 }
 
 .portfolio_table a:hover {
