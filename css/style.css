@@ -1469,16 +1469,21 @@ button.active_portfolio {
 }
 
 .meet_socials a {
-   display: inline-block;
    font-size: 20px;
    color: #fff;
-   width: 58px;
    border-right: 1px solid #ddd;
    line-height: 48px;
+   flex-grow: 1;
+}
+
+.single_blox_icon {
+   width: 20px;
+   margin: 0 auto;
+   text-align: center;
 }
 
 .meet_socials {
-   text-align: center;
+   display: flex;
    border-top: 1px solid #ddd;
 }
 
