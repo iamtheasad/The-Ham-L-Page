@@ -1,0 +1,30 @@
+/* Large devices (desktops, 992px-1280px) Start */
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+/* Large devices (desktops, 992px-1280px) End */
+
+
+/* Medium devices ( Tablet & Mobile Layout, 0px-991px) Start */
+@media only screen and (max-width: 991px) {
+   
+}
+
+/* Medium devices ( Tablet & Mobile Layout, 0px-991px) End */
+
+
+/* Tablet Layout: 768px-991px Start */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Tablet Layout: 768px-991px End */
+
+
+/* Small devices, Mobile Layout ( 0px-767px) Start */
+@media only screen and (max-width: 767px) {}
+
+/* Small devices, Mobile Layout ( 0px-767px) End */
+
+
+/* Wide Mobile Layout: 480px-767px Start */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Wide Mobile Layout: 480px-767px End */

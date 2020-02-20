@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
    <meta charset="UTF-8">
@@ -28,34 +28,75 @@
 
 <body>
    <!-- Header Section Start -->
-   <section id="header_section">
-      <div class="menu_bg">
-         <div class="container">
-            <div class="row menu_padding">
-               <div class="col-md-2">
+   <div id="header_section" class="menu_bg">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <nav class="navbar navbar-expand-lg menu_padding">
                   <div class="logo_img">
                      <a href="index.html"><img src="images/logo.png" alt="logo"></a>
                   </div>
-               </div>
-               <div class="col-md-10 text-right">
-                  <div class="menu">
-                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#about_section">about</a></li>
-                        <li><a href="#services_section">skills</a></li>
-                        <li><a href="#our_product">service</a></li>
-                        <li><a href="#portfolio">work</a></li>
-                        <li><a href="#feature">testimonial</a></li>
-                        <li><a href="#b_news">blog</a></li>
-                        <li><a href="#meet">team</a></li>
-                        <li><a href="#contact">contact</a></li>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse"
+                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                     aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#about_section">About</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#services_section">skills</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#our_product">service</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#portfolio">testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#b_news">blog</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#meet">team</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#contact">contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              Dropdown
+                           </a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="index.html">Home</a>
+                              <a class="dropdown-item" href="#about_section">about</a>
+                              <a class="dropdown-item" href="#services_section">skills</a>
+                              <a class="dropdown-item" href="#our_product">service</a>
+                              <a class="dropdown-item" href="#portfolio">work</a>
+                              <a class="dropdown-item" href="#feature">testimonial</a>
+                              <a class="dropdown-item" href="#b_news">blog</a>
+                              <a class="dropdown-item" href="#meet">team</a>
+                              <a class="dropdown-item" href="#contact">contact</a>
+                           </div>
+                        </li>
                      </ul>
-                  </div><!-- menu / -->
-               </div>
-            </div><!-- row / -->
-         </div><!-- container / -->
-      </div><!-- menu_bg / -->
-   </section> <!-- Header Section End -->
+
+                     <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                           <i class="fas fa-search"></i></button>
+                     </form>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </div> <!-- Header Section End -->
 
    <!-- header slider section start -->
    <section id="slider_section">
@@ -620,7 +661,7 @@
          <div class="row">
             <div class="col-md-12">
                <div class="product_menu height_70">
-                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <ul class="nav nav-tabs" id="myTab2" role="tablist">
                      <li class="nav-item">
                         <a class="nav-link service_after p_menu_item active" id="product_tab_1" data-toggle="tab"
                            href="#p_web_design" role="tab" aria-controls="p_web_design" aria-selected="true">Web
@@ -654,7 +695,7 @@
                   </ul>
                </div><!-- product_menu / -->
 
-               <div class="tab-content product_list" id="myTabContent">
+               <div class="tab-content product_list" id="myTabContent2">
                   <div class="tab-pane p_item p_item_1 fade show active" id="p_web_design" role="tabpanel"
                      aria-labelledby="product_tab_1">
 
@@ -1096,10 +1137,10 @@
                <div class="pricing_card_content">
                   <div class="price_card_1 price_card">
                      <!-- add active_offer_card class add for activate offer card -->
+                     <p>Personal <span class=" offer_card"></span></p>
                      <ul>
-                        <h3>Personal <span class=" offer_card"></span></h3>
                         <!-- add active_offer_card class add for activate offer card -->
-                        <a href="#" class="card_dollar_bg"><span>$99</span>/Month</a>
+                        <li><a href="#" class="card_dollar_bg"><span>$99</span>/Month</a></li>
                         <!-- add active_offer_card class add for activate offer card -->
                         <li><a href="#">1 Hosting</a></li>
                         <li><a href="#">2 Email Marketing</a></li>
@@ -1108,10 +1149,10 @@
                         <li><a href="#">3 Website Layouts</a></li>
                         <li><a href="#">5 Header Style</a></li>
                         <li><a href="#">3 Online Store</a></li>
-
-                        <a href="#" class="boxed_btn">BUY NOW</a>
-                        <!-- add active_offer_card class add for activate offer card -->
                      </ul>
+
+                     <a href="#" class="boxed_btn">BUY NOW</a>
+                     <!-- add active_offer_card class add for activate offer card -->
                   </div>
                </div><!-- pricing_card_content / -->
             </div>
@@ -1120,10 +1161,10 @@
                <div class="pricing_card_content">
                   <div class="price_card_2 price_card">
                      <!-- add active_offer_card class add for activate offer card -->
+                     <p>Business <span class="offer_card"></span></p>
                      <ul>
-                        <h3>Business <span class="offer_card"></span></h3>
                         <!-- add active_offer_card class add for activate offer card -->
-                        <a href="#" class="card_dollar_bg"><span>$199</span>/Month</a>
+                        <li><a href="#" class="card_dollar_bg"><span>$199</span>/Month</a></li>
                         <!-- add active_offer_card class add for activate offer card -->
                         <li><a href="#">1 Hosting</a></li>
                         <li><a href="#">2 Email Marketing</a></li>
@@ -1132,10 +1173,10 @@
                         <li><a href="#">3 Website Layouts</a></li>
                         <li><a href="#">5 Header Style</a></li>
                         <li><a href="#">3 Online Store</a></li>
-
-                        <a href="#" class="boxed_btn">BUY NOW</a>
-                        <!-- add active_offer_card class add for activate offer card -->
                      </ul>
+
+                     <a href="#" class="boxed_btn">BUY NOW</a>
+                     <!-- add active_offer_card class add for activate offer card -->
                   </div><!-- pricing_card_content / -->
                </div>
             </div>
@@ -1144,10 +1185,10 @@
                <div class="pricing_card_content">
                   <div class="price_card_3 price_card active_offer_card">
                      <!-- add active_offer_card class add for activate offer card -->
+                     <p>Professional <span class="active_offer_card offer_card">offer</span></p>
                      <ul>
-                        <h3>Professional <span class="active_offer_card offer_card">offer</span></h3>
                         <!-- add active_offer_card class add for activate offer card -->
-                        <a href="#" class="card_dollar_bg active_offer_card"><span>$299</span>/Month</a>
+                        <li> <a href="#" class="card_dollar_bg active_offer_card"><span>$299</span>/Month</a></li>
                         <!-- add active_offer_card class add for activate offer card -->
                         <li><a href="#">1 Hosting</a></li>
                         <li><a href="#">2 Email Marketing</a></li>
@@ -1156,10 +1197,10 @@
                         <li><a href="#">3 Website Layouts</a></li>
                         <li><a href="#">5 Header Style</a></li>
                         <li><a href="#">3 Online Store</a></li>
-
-                        <a href="#" class="boxed_btn active_offer_card">BUY NOW</a>
-                        <!-- add active_offer_card class add for activate offer card -->
                      </ul>
+
+                     <a href="#" class="boxed_btn active_offer_card">BUY NOW</a>
+                     <!-- add active_offer_card class add for activate offer card -->
                   </div>
                </div><!-- pricing_card_content / -->
             </div>
@@ -1168,10 +1209,10 @@
                <div class="pricing_card_content">
                   <div class="price_card_4 price_card">
                      <!-- add active_offer_card class add for activate offer card -->
+                     <p>diamond <span class="offer_card"></span></p>
                      <ul>
-                        <h3>diamond <span class="offer_card"></span></h3>
                         <!-- add active_offer_card class add for activate offer card -->
-                        <a href="#" class="card_dollar_bg"><span>$299</span>/Month</a>
+                        <li><a href="#" class="card_dollar_bg"><span>$299</span>/Month</a></li>
                         <!-- add active_offer_card class add for activate offer card -->
                         <li><a href="#">1 Hosting</a></li>
                         <li><a href="#">2 Email Marketing</a></li>
@@ -1180,10 +1221,10 @@
                         <li><a href="#">3 Website Layouts</a></li>
                         <li><a href="#">5 Header Style</a></li>
                         <li><a href="#">3 Online Store</a></li>
-
-                        <a href="#" class="boxed_btn">BUY NOW</a>
-                        <!-- add active_offer_card class add for activate offer card -->
                      </ul>
+
+                     <a href="#" class="boxed_btn">BUY NOW</a>
+                     <!-- add active_offer_card class add for activate offer card -->
                   </div>
                </div><!-- pricing_card_content / -->
             </div>
@@ -1221,12 +1262,15 @@
                            <i class="fas fa-quote-left"></i>
                         </div>
                         <p>
-                           গতকাল মেহেদী হাসানকে তিনে নামিয়ে চমকে দিয়েছিল ঢাকা প্লাটুন। কারণ হিসেবে এই অলরাউন্ডার
-                           বলেছিলেন তাঁর উইকেট নাকি মূল্যহীন। তাই প্রতিপক্ষের সেরা বোলারের সামনে ঠেলে দেওয়া হয়েছিল। আজ
-                           তেমন কোনো পরিস্থিতি দেখা যায়নি। কিন্তু আজও তিনে নেমেছেন মেহেদী। এবং ব্যাটের ঝড়ে আড়ালে ফেলে
-                           দিয়েছেন ব্যাটিং লাইন আপের সব বড় নামগুলোকে। ঢাকার টপ অর্ডারের বুদ্ধিদীপ্ত ব্যাটিং সিলেট
-                           থান্ডারকে পঞ্চম পরাজয় উপহার দিল আজ। ১৭৫ রানের লক্ষ্য ৯ বল বাকি থাকতে ২ উইকেট হারিয়েই ছুঁয়ে
-                           ফেলেছে ঢাকা।
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur magnam facere ab, iure
+                           vitae laborum aperiam vero quas fuga nemo, veniam culpa. Accusamus et doloribus voluptas
+                           repellendus eos nemo quia iste, provident omnis in veritatis a itaque explicabo fugiat ex
+                           sunt, non obcaecati maiores! Labore dolor mollitia earum? Adipisci perferendis voluptatem
+                           magnam nam, aut architecto doloremque tempora harum eveniet obcaecati reprehenderit sint
+                           atque, numquam quos minima consectetur et quisquam voluptates accusantium officia blanditiis.
+                           Nam omnis ut similique suscipit dicta nesciunt tenetur aspernatur accusantium beatae
+                           blanditiis, eveniet, fugit veniam eaque architecto sint earum minima, dignissimos dolore? Ea,
+                           dolorem ipsam. Tempora, natus!
 
                            <br />
                            <br />
@@ -1527,16 +1571,16 @@
                      <h6>Founder</h6>
                   </div>
                   <div class="meet_socials">
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-facebook-f"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-twitter"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-skype"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-vimeo-v"></i> </div>
                      </a>
                   </div>
@@ -1558,16 +1602,16 @@
                      <h6>UX Designer</h6>
                   </div>
                   <div class="meet_socials">
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-facebook-f"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-twitter"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-skype"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-vimeo-v"></i> </div>
                      </a>
                   </div>
@@ -1589,16 +1633,16 @@
                      <h6>Web Designer</h6>
                   </div>
                   <div class="meet_socials">
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-facebook-f"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-twitter"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-skype"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-vimeo-v"></i> </div>
                      </a>
                   </div>
@@ -1620,16 +1664,16 @@
                      <h6>Back-end Developer</h6>
                   </div>
                   <div class="meet_socials">
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-facebook-f"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-twitter"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-skype"></i> </div>
                      </a>
-                     <a href="https:facebook.com/iamtheasad">
+                     <a href="https://www.facebook.com/iamtheasad">
                         <div class="single_blox_icon"><i class="fab fa-vimeo-v"></i> </div>
                      </a>
                   </div>
@@ -1848,7 +1892,7 @@
 
 
    <!-- Copyright Section Start -->
-   <section id="copyright">
+   <div id="copyright">
       <div class="container">
          <div class="row">
             <div class="col-md-12 text-center">
@@ -1857,7 +1901,11 @@
             </div>
          </div>
       </div>
-   </section> <!-- Copyright Section End -->
+
+      <!-- Bottom To Top Button -->
+      <button class="top_bottom_button"><i class="fas fa-angle-up"></i></button>
+
+   </div><!-- Copyright Section End -->
 
 
    <!-- Javascript Links -->
