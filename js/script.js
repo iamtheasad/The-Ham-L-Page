@@ -1,7 +1,6 @@
 (function iamStrict() {
   "use strict";
 
-
   $(document).ready(function () {
 
     /* Bootstrap Menu Hover Added */
@@ -45,6 +44,7 @@
       return false;
 
     }); // click() scroll top end
+    
     /* Scroll to Top Button End */
 
 
@@ -60,14 +60,25 @@
         items: 1,
         slideSpeed: 2000,
         nav: true,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         loop: true,
         responsiveRefreshRate: 200,
         navText: [
           '<i class="fas fa-arrow-left"></i>',
           '<i class="fas fa-arrow-right"></i>'
-        ]
+        ],
+        responsive: {
+          0: {
+            nav: false
+          },
+          767: {
+            nav: false
+          },
+          768: {
+            nav: true
+          }
+        }
       })
       .on("changed.owl.carousel", syncPosition);
 
@@ -186,7 +197,7 @@
       asNavFor: '.opinion_nav',
       nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
       prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2000,
       pauseOnFocus: false,
       pauseOnHover: false,
