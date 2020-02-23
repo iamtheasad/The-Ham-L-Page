@@ -925,7 +925,7 @@ a.card_dollar_bg span {
 }
 
 .single_portfolio_item:hover .portfolio_table {
-   opacity: 0;
+   opacity: 1;
 }
 
 .portfolio_isotope_menu {
