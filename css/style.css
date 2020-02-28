@@ -1947,6 +1947,56 @@ button.active_portfolio {
    color: #90aebd;
 }
 
+.contact_form input::-webkit-input-placeholder,
+.contact_form textarea::-webkit-input-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input:-moz-placeholder,
+.contact_form textarea:-moz-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input::-moz-placeholder,
+.contact_form textarea::-moz-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input:-ms-input-placeholder,
+.contact_form textarea:-ms-input-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input::-ms-input-placeholder,
+.contact_form textarea::-ms-input-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input::-webkit-input-placeholder,
+.contact_form textarea::-webkit-input-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input:-moz-placeholder,
+.contact_form textarea:-moz-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input::-moz-placeholder,
+.contact_form textarea::-moz-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input:-ms-input-placeholder,
+.contact_form textarea:-ms-input-placeholder {
+   color: #90aebd;
+}
+
+.contact_form input::-ms-input-placeholder,
+.contact_form textarea::-ms-input-placeholder {
+   color: #90aebd;
+}
+
 .contact_form input::placeholder,
 .contact_form textarea::placeholder {
    color: #90aebd;
@@ -2078,7 +2128,7 @@ input#footer_email {
    border: 1px solid transparent;
    color: #757575;
    margin-top: 25px;
-   padding: 0px 12px;
+   padding: 15px 12px;
    font-weight: 500;
 }
 
@@ -2086,14 +2136,9 @@ input#footer_email:focus {
    border: 1px solid #18CFAB;
 }
 
-input#footer_email,
-.newsletter label {
-   line-height: 50px;
-}
-
 .newsletter label {
    background: #294453;
-   padding: 0px 15px;
+   padding: 15px 15px;
    text-transform: uppercase;
    color: #18CFAB;
    font-weight: 700;
